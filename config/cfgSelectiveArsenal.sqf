@@ -88,7 +88,9 @@ EE_Scripts_sa_magazines =
     "Titan_AT",
     "UGL_FlareGreen_F",
     "UGL_FlareRed_F",
-    "UGL_FlareWhite_F"
+    "UGL_FlareWhite_F",
+  "B_UavTerminal",
+  "B_UavTerminal"
   ];
 EE_Scripts_sa_items =
   [
@@ -143,9 +145,13 @@ EE_Scripts_sa_items =
     "MC_Helmet2",
     "ItemMap",
     "ItemCompass",
-    "ItemWatch"
+    "ItemWatch",
+	"B_UavTerminal",
+	"B_UavTerminal"
   ];
 EE_Scripts_sa_weapons =
 [
-  "arifle_MX_F"
+  "arifle_MX_F",
+  "B_UavTerminal",
+  "B_UavTerminal"
 ];
