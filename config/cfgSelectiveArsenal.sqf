@@ -1,17 +1,28 @@
 EE_Scripts_sa_magazines =
   [
-    "B_IR_Grenade",
-    "ACE_HandFlare_Green",
-    "ACE_HandFlare_Red",
-    "ACE_HandFlare_White",
-    "ACE_HandFlare_Yellow",
-    "SmokeShellBlue",
-    "SmokeShellGreen",
-    "SmokeShellOrange",
-    "SmokeShellPurple",
-    "SmokeShellRed",
-    "SmokeShellYellow",
-    "rhs_mag_m67",
+	"ACE_Chemlight_HiOrange",
+	"ACE_Chemlight_HiRed",
+	"ACE_Chemlight_HiWhite",
+	"ACE_Chemlight_HiYellow",
+	"ACE_Chemlight_IR",
+	"ACE_Chemlight_Orange",
+	"ACE_Chemlight_White",
+	"B_IR_Grenade",
+	"ACE_HandFlare_Green",
+	"ACE_HandFlare_Red",
+	"ACE_HandFlare_White",
+	"ACE_HandFlare_Yellow",
+	"rhs_mag_mk84",
+	"rhs_mag_mk3a2",
+	"rhs_mag_m7a3_cs",
+	"rhs_mag_m69",
+	"rhs_mag_m67",
+	"rhs_mag_m18_yellow",
+	"rhs_mag_m18_red",
+	"rhs_mag_m18_purple",
+	"rhs_mag_m18_green",
+	"rhs_mag_an_m14_th3",
+	"rhs_mag_an_m8hc",
     "rhsusf_m112_mag",
     "DemoCharge_Remote_Mag",
     "rhsusf_m112x4_mag",
@@ -89,8 +100,7 @@ EE_Scripts_sa_magazines =
     "UGL_FlareGreen_F",
     "UGL_FlareRed_F",
     "UGL_FlareWhite_F",
-  "B_UavTerminal",
-  "B_UavTerminal"
+    "B_UavTerminal"
   ];
 EE_Scripts_sa_items =
   [
@@ -146,12 +156,10 @@ EE_Scripts_sa_items =
     "ItemMap",
     "ItemCompass",
     "ItemWatch",
-	"B_UavTerminal",
 	"B_UavTerminal"
   ];
 EE_Scripts_sa_weapons =
 [
   "arifle_MX_F",
-  "B_UavTerminal",
   "B_UavTerminal"
 ];
