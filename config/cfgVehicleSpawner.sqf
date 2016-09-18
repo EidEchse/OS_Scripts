@@ -1,6 +1,5 @@
 EE_Scripts_vs_vehicle =
 [
-  ["B_Quadbike_01_F"],
   ["B_LSV_01_unarmed_F"],
   ["rhsusf_m998_d_2dr_fulltop","rhsusf_m998_d_2dr_halftop","rhsusf_m998_d_2dr","rhsusf_m998_d_4dr_fulltop","rhsusf_m998_d_4dr_halftop","rhsusf_m998_d_4dr"],
   ["rhsusf_m1025_d"],
