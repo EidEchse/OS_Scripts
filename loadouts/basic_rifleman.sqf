@@ -1,5 +1,5 @@
 params ["_unit"];
-comment "Exported from Arsenal by FreundDerNacht";
+comment "Exported from Arsenal by EidEchse_Yannick";
 
 comment "Remove existing items";
 removeAllWeapons _unit;
@@ -13,17 +13,20 @@ removeGoggles _unit;
 
 comment "Add containers";
 _unit forceAddUniform "MC_Camo";
+_unit addItemToUniform "ACE_key_west";
 _unit addItemToUniform "ACE_EarPlugs";
-_unit addItemToUniform "ACE_DefusalKit";
-for "_i" from 1 to 8 do {_unit addItemToUniform "ACE_fieldDressing";};
-for "_i" from 1 to 3 do {_unit addItemToUniform "ACE_morphine";};
 for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_epinephrine";};
-_unit addItemToUniform "ACE_DAGR";
-for "_i" from 1 to 2 do {_unit addItemToUniform "30Rnd_65x39_caseless_mag_Tracer";};
+for "_i" from 1 to 5 do {_unit addItemToUniform "ACE_morphine";};
+for "_i" from 1 to 8 do {_unit addItemToUniform "ACE_fieldDressing";};
+_unit addItemToUniform "ACE_microDAGR";
+_unit addItemToUniform "ACE_Flashlight_XL50";
+for "_i" from 1 to 3 do {_unit addItemToUniform "30Rnd_65x39_caseless_mag_Tracer";};
 _unit addVest "V_TacVest_khk";
-for "_i" from 1 to 7 do {_unit addItemToVest "30Rnd_65x39_caseless_mag";};
-for "_i" from 1 to 2 do {_unit addItemToVest "HandGrenade";};
-for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
+for "_i" from 1 to 2 do {_unit addItemToVest "ACE_M84";};
+for "_i" from 1 to 6 do {_unit addItemToVest "30Rnd_65x39_caseless_mag";};
+for "_i" from 1 to 3 do {_unit addItemToVest "rhs_mag_an_m8hc";};
+for "_i" from 1 to 4 do {_unit addItemToVest "rhs_mag_m67";};
+_unit addItemToVest "rhs_mag_m69";
 _unit addHeadgear "MC_Helmet2";
 
 comment "Add weapons";
@@ -37,5 +40,3 @@ _unit linkItem "ItemWatch";
 comment "Set identity";
 _unit setFace "AsianHead_A3_03";
 _unit setSpeaker "ACE_NoVoice";
-
-_unit addItemToUniform "ACE_key_west";
