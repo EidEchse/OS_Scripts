@@ -1,5 +1,6 @@
 params ["_logic", "_vehicle", "_vehicleName"];
 
+_vehicle addItemCargoGlobal ["ACE_key_west", 2];
 _vehicle addItemCargoGlobal ["ACE_EarPlugs", 5];
 _vehicle addItemCargoGlobal ["ACE_fieldDressing", 18];
 _vehicle addItemCargoGlobal ["ACE_epinephrine", 6];
