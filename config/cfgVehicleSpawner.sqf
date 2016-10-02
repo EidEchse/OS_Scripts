@@ -72,3 +72,78 @@ EE_Scripts_vs_artillary =
   ["rhsusf_m109d_usarmy"],
   ["B_MBT_01_mlrs_F"]
 ];
+
+EE_Scripts_vs_respawn_aa =
+[
+1800 //Level 0
+];
+EE_Scripts_vs_respawn_vehicle =
+[
+10, //Level 0
+10, //Level 1
+10, //Level 2
+10, //Level 3
+10, //Level 4
+30, //Level 5
+30, //Level 6
+30, //Level 7
+30, //Level 8
+30, //Level 9
+60, //Level 10
+60, //Level 11
+60, //Level 12
+60, //Level 13
+60, //Level 14
+120, //Level 15
+120, //Level 16
+120, //Level 17
+120, //Level 18
+120, //Level 19
+240, //Level 20
+240, //Level 21
+240, //Level 22
+240, //Level 23
+240 //Level 24
+];
+EE_Scripts_vs_respawn_artillary =
+[
+60, //Level 0
+90, //Level 1
+120, //Level 2
+240 //Level 3
+];
+EE_Scripts_vs_respawn_plane =
+[
+120, //Level 0
+120, //Level 1
+120, //Level 2
+180, //Level 3
+180, //Level 4
+240, //Level 5
+240, //Level 6
+300, //Level 7
+300 //Level 8
+];
+EE_Scripts_vs_respawn_boat =
+[
+30, //Level 0
+60, //Level 1
+120, //Level 2
+180 //Level 3
+];
+EE_Scripts_vs_respawn_helicopter =
+[
+30, //Level 0
+30, //Level 1
+30, //Level 2
+60, //Level 3
+60, //Level 4
+60, //Level 4
+60, //Level 4
+120, //Level 4
+120, //Level 4
+120, //Level 4
+240, //Level 4
+240, //Level 4
+240 //Level 5
+];
